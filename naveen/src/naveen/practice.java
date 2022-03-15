@@ -24,6 +24,9 @@ public class practice {
 		System.out.println(smallest);
 		System.out.println(smallest);
 		System.out.println(largest);
+		System.out.println(largest);
+		System.out.println(largest);
+	
 	}
 	
 }
