@@ -10,14 +10,18 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 
 
 //We are developing framework ---Skeleton --Chrome
 public class BrowserLaunch {
 
+	
 	public static WebDriver Driver;
 	public static Properties property;
 	
+	@BeforeSuite
 	public void Browser_Initilisation() {
 		
 		ReadProperty();
@@ -50,4 +54,9 @@ public class BrowserLaunch {
 			e.printStackTrace();
 		}
 	}	
+	
+	@AfterSuite
+	public void Browserclose() {
+		Driver.quit();
+	}
 	}
