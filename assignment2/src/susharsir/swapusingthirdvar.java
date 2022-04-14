@@ -10,7 +10,8 @@ public class swapusingthirdvar {
 		
 		System.out.println(" enter value");
 		
-		int var= obj.nextInt();
+		int var= obj.nextInt();  
+		obj.nextLine();
 		
 		int var1=obj.nextInt();
 		int par;

@@ -79,5 +79,7 @@ public class SortedSetExample {
 		 System.out.println(" subSet: "+obj.subSet(25, true, 100, false));
 		 System.out.println(" subSet: "+obj.subSet(25, false, 100, true));
 		 System.out.println(" subSet: "+obj.subSet(25, true, 100, true));
+		 
+		 System.out.println(10+20+"abs"+10%5+20 );
 	}
 }

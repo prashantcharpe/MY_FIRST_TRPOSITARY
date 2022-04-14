@@ -23,7 +23,7 @@ public class employee {
   
   
   public double calculateGrossSalary() {
-		grosssalary = calculateGrossSalary() + phoneAllowance + tourAllowance;
+		grosssalary = calculateGrossSalary() ;
 		return calculateGrossSalary();
   }
   

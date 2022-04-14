@@ -10,9 +10,12 @@ public interface A  {
 	default void sub(int a, int b) {
 		System.out.println(a-b);
 	}
+	
 	static void multi(int a, int b) {
 		System.out.println(a*b);
-	}
+	} 
+	
+	
 }
  interface B {
 	 

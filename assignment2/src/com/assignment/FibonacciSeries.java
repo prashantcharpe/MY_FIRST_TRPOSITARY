@@ -19,7 +19,7 @@ public class FibonacciSeries {
 		
 	/*	int a=0, b=1 , c;
 		
-		while(a>=0)
+		while(a<=20)
 		{
 			System.out.println(a);
 			c=a+b;
@@ -32,7 +32,7 @@ public class FibonacciSeries {
 			c=a+b;
 			a=b;
 			b=c;
-		}while(a>=0); */
+		}while(a<=20); */
 		
 		
 	}

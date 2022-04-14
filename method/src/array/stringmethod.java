@@ -26,7 +26,6 @@ public class stringmethod {
 		System.out.println(a.indexOf("a"));
 		System.out.println(a.indexOf("s", 2));
 		System.out.println(a.lastIndexOf("a"));
-		System.out.println(a.repl);
 		
 	}
 

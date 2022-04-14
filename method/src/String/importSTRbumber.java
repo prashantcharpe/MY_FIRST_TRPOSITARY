@@ -10,6 +10,7 @@ static String a[]= {" raju"," marvel"," stella"," akash"," gagan","pooja"," "};
 	public static void main(String[] args) {
 		
 		m1();
+		
 		int index=3;
 		
 		for(int i=a.length-1; i>=index; i--) {  // 1st    i=6;       6>3,   i--
@@ -37,9 +38,6 @@ static String a[]= {" raju"," marvel"," stella"," akash"," gagan","pooja"," "};
 		a[index]=1000;
 		
 		a[1]=a[index];
-		
-		
-		
 		
 		System.out.println(Arrays.toString(a));
 		

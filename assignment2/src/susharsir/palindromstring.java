@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class palindromstring {
 
 	public static void main(String[] args) {
-		String a ="prashant";
+		String a ="mam";  //
 		String rev="";
 		
 		for(int i=a.length()-1; i>=0; i--) {
@@ -17,6 +17,10 @@ public class palindromstring {
 			System.out.println(" this is not palindrome = "+rev);
 		}
 		System.out.println(rev);
+		
+		
+		
+		
 		
 		int n, r, c, s=0;  //s use for addition r remider variable 
 		                   // n use for input value like 121
@@ -31,7 +35,7 @@ public class palindromstring {
 			
 			r=n%10;     //121%10= 1 .  r value is 1(reminder), n = 12 is denominator 
 			s=(s*10)+r;  //0*10= 0,    0+1=1,  s value is 1;
-			n=n/10;      // 12/10 
+			n=n/10;      // 121/10 => 12
 		} if (c==s) {
 			System.out.println(" this is palindrome no = "+ c);
 		}else {

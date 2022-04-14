@@ -11,14 +11,15 @@ public class CountRepetedDuplicteArray {
 			
 			boolean flage=false;
 			
-			for(int j=i+1;  j<a.length; j++) {  
+			for(int j=0;  j<a.length; j++) {  
 				                                
 				if(a[i]==a[j] && i!=j){
+					a[j]=0;
 					flage=true;
 					break;
 				}
 			}
-			if(flage) {           
+			if(!flage && a[i] != 0) {           
 				 count=count+1;                              
 				System.out.print(a[i]+" ");  
 			}                                

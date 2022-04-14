@@ -8,7 +8,7 @@ public class insertElementInspecificPosition {
 		String b= "pankaj suhasr ahul";
 		
 		
-		System.out.println(b.replace(0, 0));
+		System.out.println(b.replace(10, 0));
 		
 	}
 

@@ -5,7 +5,6 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class prcatice {
-
 	
 	public static void main(String[] args)  {
 	
@@ -17,7 +16,6 @@ public class prcatice {
 			e.printStackTrace();
 		}
 	
-		
 	}
 	public void m1() throws FileNotFoundException {
 		m2();
@@ -28,7 +26,14 @@ public class prcatice {
 		System.out.println(" exception is handle");
 		}
 	
-	public void m2() throws FileNotFoundException {
-		FileReader obj2 = new FileReader ("");
+	public void m2()   {
+		try {
+			FileReader obj2 = new FileReader ("");
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		System.out.println("m1");
 	}
 }

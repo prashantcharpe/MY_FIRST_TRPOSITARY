@@ -8,7 +8,7 @@ static int arry[]= {2,7,9,5,1,4};
 	 int p;
 		for(int i=0; i<arry.length; i++) {
 			for(int j=i; j<arry.length; j++) {
-				if (arry[i]>arry[j]) {
+				if (arry[i]<arry[j]) {
 				     p = arry[i];
 					arry[i]=arry[j];
 					arry[j]=p;

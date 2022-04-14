@@ -72,7 +72,7 @@ class bb extends base implements AA,zz{
 	public static void main(String[] args) {
 		 
 	}
-		
+
 }
 
 

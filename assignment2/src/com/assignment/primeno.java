@@ -8,8 +8,9 @@ public class primeno {
 	
 	public static void main(String[] args) {
 		int sum=0;
+		//int b = 39;
 		
-		for(int i=1; i<=100; i++) {
+		for(int i=0; i<=100; i++) {
 			
 			boolean flag=true; 
 			
@@ -21,12 +22,12 @@ public class primeno {
 		} 
 		
 		if(flag) {
-			sum=sum+i;
+			//sum=sum+i;
 			System.out.println("is prime no = " + i);
 		}else {
 			System.out.println( " is not prime = " + i);
 		}
 		
-	}System.out.println("all prime no. sum= "+sum);
+	}//System.out.println("all prime no. sum= "+sum);
 }
 }
